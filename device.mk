@@ -38,6 +38,11 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.xiaomi_oxygen
