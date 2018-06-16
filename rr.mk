@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
+$(call inherit-product, device/xiaomi/oxygen/full_hydrogen.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_oxygen
+# Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
-
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="oxygen-user 7.1.1 NMF26F V9.2.1.0.NDDMIEK release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/oxygen/oxygen:7.1.1/NMF26F/V9.2.1.0.NDDMIEK:user/release-keys"
+PRODUCT_BRAND := Xiaomi
+PRODUCT_DEVICE := oxygen
+PRODUCT_NAME := rr_oxygen
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := Mi Max 2
+TARGET_VENDOR := Xiaomi
+ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="oxygen-user 7.1.1 NMF26F V9.2.1.0.NDDMIEK release-keys"
+ BUILD_FINGERPRINT := "Xiaomi/oxygen/oxygen:7.1.1/NMF26F/V9.2.1.0.NDDMIEK:user/release-keys"
