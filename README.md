@@ -14,4 +14,4 @@ Display | 1920x1080 pixels, 6.44 inches (~342 ppi pixel density)
 Camera  | 12 MP (f/2.2, 1/2.9", 1.25µm), phase detection autofocus, dual-LED dual-tone flash
 FrontCam| 5 MP, f/2.0
 
-![Xiaomi Mi Max 2](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-max2.jpg "Xiaomi Mi Max 2")
+![Xiaomi Mi Max 2](https://des.gbtcdn.com/uploads/pdm-desc-pic/Electronic/image/2017/06/07/20170607104210_97073.jpg "Xiaomi Mi Max 2")
