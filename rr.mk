@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/oxygen/full_hydrogen.mk)
+$(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
